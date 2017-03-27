@@ -1,4 +1,3 @@
-# NOT YET AVAILABLE TO CHAPTERS
 # Kids Learning Code: Gamemaking with Scratch & MaKey MaKey
 
 ## Quick Links
