@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Girls Learning Code</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- Takes care of CSS3 prefixes -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- opens all links in a new window -->
+  <base target="_blank">
+</head>
+
+<!-- Timer/progress bar: Define the presentation duration using "data-duration" in minutes. -->
+<body class="en" data-duration="360">
+
+
+  <main>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        ##Instructor Notes
+
+        ##Girls Learning Code: Gamemaking and Circuitry with Scratch &amp; MaKey MaKey
+        <br>
+
+        #INDEX
+        ###<a href="#slide2" target="_self">Using Scratch</a>
+        ###<a href="#slide3" target="_self">Using MaKey MaKey</a>
+        ###<a href="#slide4" target="_self">Schedule</a>
+        ###<a href="#slide5" target="_self">Intro to Gamemaking</a>
+        ###<a href="#slide6" target="_self">Code-Along</a>
+        ###<a href="#slide7" target="_self">Work Session: Scratch</a>
+        ###<a href="#slide8" target="_self">Intro to Circuits</a>
+        ###<a href="#slide9" target="_self">Work Session: MaKey MaKey</a>
+        ###<a href="#slide10" target="_self">Unplugged Activity (Optional)</a>
+        ###<a href="#slide11" target="_self">Closing</a>
+
+        <br>
+        #Using Scratch
+
+        Scratch is a great tool for teaching coding concepts, and building fun and creative digital games. If you aren’t familiar with the program: great news! There are tons of free, online resources to get you started. Here are a few that we think are awesome:
+
+        * Scratch <a href="https://scratch.mit.edu/educators/#resources">Educator Resources</a> (especially the <a href="https://cdn.scratch.mit.edu/scratchr2/static/__0c1805349a6fe15c01c668d3f8acd971__/pdfs/help/Getting-Started-Guide-Scratch2.pdf">Getting Started Guide</a>)
+        * Google CS First <a href="https://www.cs-first.com/training/introduction-computer-science-and-scratch">Training Materials</a>
+        * Teachers Learning Code <a href="http://teacherslearningcode.com/assets/TLC-gettingstartedguide.pdf">Guide</a>
+        * Scratch ED: Using the Scratch <a href="http://scratched.gse.harvard.edu/resources/scratch-teacher-accounts">Teacher Account</a>
+
+        <br>
+        # Using MaKey MaKey
+
+        MaKey MaKey is a circuit board that uses electric circuits to make random objects function like keys on a keyboard. MaKey MaKey plugs into the computer through USB, then connects to the new “keys” using alligator clips.
+
+        MaKey MaKey can turn anything that is conductive into a controller, so you can play Super Mario Bros with Play-Doh, or create a piano out of bananas. The possibilities are endless!  For more information, watch this <a href="https://www.youtube.com/watch?v=rfQqh7iCcOU">video</a>, or check out the MaKey MaKey <a href="http://makeymakey.com/">website</a>.
+
+        <br>
+        #Materials
+        * Enough <a href="http://shop.ladieslearningcode.com/products/makey-makey?variant=12400440452">MaKey MaKey kits</a> for each pair of learners AND for the facilitator
+        * Conductive materials: Fruit, Play-Doh, tin foil, utensils, candy, paper + pencils, etc.
+
+        <br>
+        #Schedule
+
+        ![intro icon](framework/img/workshop/intro-icon2.png) Introduction (15 min)
+
+        ![code icon](framework/img/workshop/code-icon2.png) Code-Along (30 min)
+
+        ![laptop icon](framework/img/workshop/laptop-icon2.png) Work Session: Scratch (30 min - 1 hour)
+
+        ![intro icon](framework/img/workshop/intro-icon2.png) Intro to Circuits (15 min)
+
+        ![laptop icon](framework/img/workshop/laptop-icon2.png) Work Session: MaKey MaKey (30 min - 1 hour)
+
+
+        <br>
+        #Introduction
+
+        ##Kick-Off Script
+
+        Welcome to our Girls Learning Code workshop: Gamemaking with Scratch & MaKey MaKey! We’re so glad that you could be here today and hope you’re ready to learn lots of new things.
+
+        How many of you have been to one of our workshops or camps before?
+        (If you get some hands up, ask a few of them what workshops they attended)
+
+        We started running our first programs for kids with Girls Learning Code workshops and camps back in 2012, and then since we had so many people asking if boys could come too we started Kids Learning Code a year later in 2013. Since then, we’ve expanded to over 30 cities across Canada and have taught over 19,000 kids how to code!
+
+        Before we get started with our workshop, there are a few things we need to go over:
+
+        * <strong>Washrooms:</strong> Can everyone please point in the direction of the washrooms? (clarify where they are located) If you need to go to the washroom, please bring a buddy with you.
+        * <strong>Water:</strong> If you brought a water bottle with you, you’re welcome to keep it on your desk, but make sure to keep the lid closed when you’re not using it. If you don’t have a water bottle, one of our mentors can help grab a glass from the kitchen later on (but please keep glasses away from laptops).
+        * <strong>Break/snacks:</strong> We’ll have a 10 minute break when you can eat any snacks you brought with you or just stretch your legs. If you have a (peanut free) snack, please eat it out front and clean up any crumbs or wrappers when you’re done.
+
+        ##Intro to Gamemaking Slides
+
+        <table style="font-size:2rem;">
+          <tr>
+            <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Slide</strong></td>
+            <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Notes</strong></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/3.jpg" alt="slide"></td>
+            <td> Now I want to introduce you all to some important people: our mentors!
+            <br>
+            <i>Have mentors join you at front of class and get them to say their name and favourite website/game</i>
+            <br><br>
+            The mentors will be here to help you if you have any problems, so don’t be afraid to ask them questions if you get stuck, or if you just want to show them your awesome projects! </td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/5.jpg" alt="slide"></td>
+            <td> <em>After selecting the activity, insert the activity title in this slide.</em></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/6.jpg" alt="slide"></td>
+            <td>
+              <ol>
+                  <li><strong>Ask for help</strong>: If you’re stuck or having trouble with something, work with the person beside you, or put up your hand to ask the facilitator or one of our mentors for help
+                  <li><strong>Be present</strong>: We really want you to learn a lot in this workshop, so make sure to pay attention and follow along with the activities
+                  <li><strong>Try your best</strong>: Even the best coders have trouble sometimes, so we don’t expect you to do everything perfectly the first time, but make sure you’re trying your best. Don’t be afraid to try things out and make mistakes!</td>
+                </ol>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/7.jpg" alt="slide"></td>
+            <td><em>Take 2-3 responses</em></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/8.jpg" alt="slide"></td>
+            <td><em>Great time for Do the Robot unplugged activity</em></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/9.jpg" alt="slide"></td>
+            <td> We have two parts to our project today:
+              <br><br>First we’re going to create a game in Scratch
+              <br>Q: Who has heard of or used Scratch before?
+            </td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/10.jpg" alt="slide"></td>
+            <td> Then, we are going to invent controllers, which we’ll then use to play our games!</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/11.jpg" alt="slide"></td>
+            <td><em>Open the example project to give an idea of what they will create.</em></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/12.jpg" alt="slide"></td>
+            <td><em>Take 2-3 responses</em>
+              <br><br> Q: What does a game developer do?
+              <br><br>Q: What are all of the things we need to think of when creating a game?</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/13.jpg" alt="slide"></td>
+            <td>Q: What does ‘simulated’ mean?
+              <br>A: Something created by a computer, not real but is designed to look/feel real</td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/14.jpg" alt="slide"></td>
+            <td> Today we are creating PVP (player versus player) games so you can compete against each other.
+              <br>You will decide the rules and goals of your game.</td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/15.jpg" alt="slide"></td>
+            <td> Q: Who has played Rock Paper Scissors before? Great! Then you’re all experts!
+              <br>Q: Who are the players?
+              <br>Q: What is the goal?
+              <br>Q: What are the rules?</td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/16.jpg" alt="slide"></td>
+            <td> Think to yourself, what are 3 things that your favourite game has or that you look for in a game?
+              <br>Pair with an elbow partner (or 2). Listen to what their ideas and share your own.
+              <br>Share with the entire group. <em>Ask one rep from each group to share 3 things that they discussed</em></td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/17.jpg" alt="slide"></td>
+            <td>Let’s get started! But first, let’s take a look at the tool that we’ll be using.</td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/18.jpg" alt="slide"></td>
+            <td> Scratch is a tool for coding games and animations. It looks sort of like a puzzle, with drag-and-drop pieces.</td>
+          </tr>
+        </table>
+
+        <br>
+        #Code-Along
+
+        * Open up Scratch, and click on “create” (top, left corner).
+        * Point out the main elements: Stage, Sprites, and Scripts. Demonstrate how to drag and connect blocks.
+        * Give learners a few minutes to click on blocks and explore.
+        * Go through 2-4 challenges with the group, where learners are tasked with trying to make something happen in Scratch. For example, “Try to make Scratch the cat move” or “Try to make Scratch the cat say something when the space key is pressed” (See <a href="http://bit.ly/scratch-challenge-solutions-doc">Code-Along Challenges</a> for more examples and solutions)
+        * After 5 minutes on a challenge, have a volunteer come to the front and show how they solved the challenge. Point out that there are many different ways to approach these challenges, and multiple solutions. Ask if anyone solved it in a different way.
+        * If time, ask learners to think of challenges for the group.
+        * This is a great time to address common bugs and questions that arise, e.g. how to delete a sprite, what to do when a sprite has walked off of the screen, etc.
+
+
+        <br>
+        #Work Session: Scratch
+
+        * Choose 1-2 activities from the <a href="https://docs.google.com/spreadsheets/d/13vVx3XwkvJuRs2ca2GVvLuixVlIkXkzbRYdzA14aOi8/edit?usp=sharing">activity list</a> (Gamemaking tab). Suggested activity for 6-9 year olds: Escape Game. Suggested activities for 9-13 year olds: Launcher Game and Platform Game.
+        * Show learners where to find the <strong>starter project</strong> in the Scratch class.
+        * Follow the <strong>solution sheet</strong> as you lead the group in creating a working foundation, stopping right before the “Add-On” portion.
+        * Give time for learners to remix the project on their own. It might be helpful to brainstorm remix ideas for inspiration (refer to “Add-On” ideas).
+        * Make sure everyone clicks on "SHARE" when they are finished (top, right corner)
+        * Have learners add their projects to the studio (Go to "My Class" > Select studio > Add Projects).
+        * Leave time at the end for learners to test their games and share their projects with each other. If short on time: Have a Gallery Walk, where learners open the project on their screens, tuck in their chairs, and walk around to see each other's work.
+
+
+        <br>
+        #Intro to Circuits
+
+        <table style="font-size:2rem;">
+          <tr>
+            <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Slide</strong></td>
+            <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Notes</strong></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/20.jpg" alt="slide"></td>
+            <td>Q: Who has heard of or used MaKey MaKey before? </td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/21.jpg" alt="slide"></td>
+            <td> <em>Watch video.</em></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/22.jpg" alt="slide"></td>
+            <td>Q: Any guesses?</tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/23.jpg" alt="slide"></td>
+            <td>A circuit is like a road that cars (electricity) travel on. If there is a break in the road, the cars can’t get to where they need to be.</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/24.jpg" alt="slide"></td>
+            <td>Q: Has anyone ever wondered what happens when you turn on a light switch?
+              <br><br>When we flip a switch, we are closing (or completing) a circuit, so that electricity can flow through (and reach the light bulb!)</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/25.jpg" alt="slide"></td>
+            <td>Q: What conductor is used to direct electricity to a light bulb?
+              <br><br>Electricity travels inside cables with metal wires, like copper or aluminum.</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/26.jpg" alt="slide"></td>
+            <td>Electricity also travels through other objects, like water (which is why we don’t go swimming in an electrical storm!)</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/27.jpg" alt="slide"></td>
+            <td>We’re going to conduct an experiment!
+              <br><em>Watch this video ahead of time: http://bit.ly/makey-human-circuit </em>
+              <br><ol>
+                <li>Have everyone stand up and make a circle around the room</li>
+                <li>Open up Flappy Bird (on Scratch)</li>
+                <li>Plug MaKey MaKey into your laptop </li>
+                <li>Hook one alligator clip to ‘earth’, then have someone hold the metal part on the other end of the clip</li>
+                <li>Attach the 2nd clip to ‘space’ on the board and give the other end to the next person in the circle</li>
+                <li>Instruct everyone to hold hands, except for the two hands holding the clips</li>
+                <li>Start the game and have the two holding clips to high-five to control the game</li>
+                <li>Make sure everyone is holding hands, not sleeves. Try having one person let go and see what happens.</li>
+                <li>Try having one person with a clip touch the other person’s nose, tap their forehead, etc. and see what happens</li></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/28.jpg" alt="slide"></td>
+            <td><em>Have everyone sit back down</em>
+              <br><br>Q: Why don’t we get electrocuted when we touch a cable, like our laptop chargers?
+              <br>A: We use insulators to control where an electric current travels (and to keep us safe!)</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/29.jpg" alt="slide"></td>
+            <td></td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/30.jpg" alt="slide"></td>
+            <td>Show learners how to set up MaKey MaKey by recording yourself setting it up on your webcam.
+              <br><br>Leave this slide up for reference as they set up their own. </td>
+          </tr>
+        </table>
+
+        <br>
+        #Work Session: MaKey MaKey
+
+        * Using your webcam, demonstrate how to set up MaKey MaKey
+        * Hand out a MaKey MaKey kit to each pair, as well as a basket with conductive items to explore
+        * Display slide #30 (Set It Up) at the front as learners get started
+        * Give learners 30 min to test out different conductive materials as their game controllers
+        * Once everyone has had a chance to test out their own games, rotate pairs clockwise around the room, so that they can test out other games
+        * Give 2-3 minutes at each game, then signal for pairs to rotate again
+        * Give everyone 5 minutes to clean up their MaKey MaKey kits and materials before wrapping up the workshop
+
+        <br>
+        #Unplugged Activity (Optional)
+
+        If you notice that the group is needing a break, give them 10 minutes to use the washroom, get some water, or grab a snack from their bags. Another option is to run an unplugged activity midway through the workshop to get them out of their seats and moving around. Unplugged activities usually take around 10 minutes to run. Choose an unplugged activity from the <a href="https://docs.google.com/document/d/1tUTiHl7scs8RHdLLvdmZTFtD9EuAyZhetTLFgvar5CQ/edit?usp=sharing">activity list</a>. Suggested activity: Do The Robot.
+
+        <br>
+        #Closing Script
+
+        Who can tell me something new they learned today? (<strong>*Refer to slide 33 for examples</strong>. If you don’t get any hands up, you can either ask a specific kid that was definitely engaged during the workshop, or review a couple of the key lessons in the workshop)
+
+        You all did an amazing job and we’re really impressed with how great your projects turned out.
+
+        If you want to learn more about coding, design, and technology, go onto our site girlslearningcode.com to check out all of our upcoming workshops and join our mailing list. (Announce next workshop and give short description).
+
+        Before we go, let’s give our mentors a big hand!
+
+        Thanks and we hope to see you all in another workshop soon!
+       </script>
+    </section>
+
+<!--Additional slides to link from index-->
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Using Scratch
+
+      Scratch is a great tool for teaching coding concepts, and building fun and creative digital games. If you aren’t familiar with the program: great news! There are tons of free, online resources to get you started. Here are a few that we think are awesome:
+
+      * Scratch <a href="https://scratch.mit.edu/educators/#resources">Educator Resources</a> (especially the <a href="https://cdn.scratch.mit.edu/scratchr2/static/__0c1805349a6fe15c01c668d3f8acd971__/pdfs/help/Getting-Started-Guide-Scratch2.pdf">Getting Started Guide</a>)
+      * Google CS First <a href="https://www.cs-first.com/training/introduction-computer-science-and-scratch">Training Materials</a>
+      * Teachers Learning Code <a href="http://teacherslearningcode.com/assets/TLC-gettingstartedguide.pdf">Guide</a>
+      * Scratch ED: Using the Scratch <a href="http://scratched.gse.harvard.edu/resources/scratch-teacher-accounts">Teacher Account</a>
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      # Using MaKey MaKey
+
+      MaKey MaKey is a circuit board that uses electric circuits to make random objects function like keys on a keyboard. MaKey MaKey plugs into the computer through USB, then connects to the new “keys” using alligator clips.
+
+      MaKey MaKey can turn anything that is conductive into a controller, so you can play Super Mario Bros with Play-Doh, or create a piano out of bananas. The possibilities are endless!  For more information, watch this <a href="https://www.youtube.com/watch?v=rfQqh7iCcOU">video</a>, or check out the MaKey MaKey <a href="http://makeymakey.com/">website</a>.
+
+      <br>
+      #Materials
+      * Enough <a href="http://shop.ladieslearningcode.com/products/makey-makey?variant=12400440452">MaKey MaKey kits</a> for each pair of learners AND for the facilitator
+      * Conductive materials: Fruit, Play-Doh, tin foil, utensils, candy, paper + pencils, etc.
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Schedule
+
+      ![intro icon](framework/img/workshop/intro-icon2.png) Introduction (15 min)
+
+      ![code icon](framework/img/workshop/code-icon2.png) Code-Along (30 min)
+
+      ![laptop icon](framework/img/workshop/laptop-icon2.png) Work Session: Scratch (30 min - 1 hour)
+
+      ![intro icon](framework/img/workshop/intro-icon2.png) Intro to Circuits (15 min)
+
+      ![laptop icon](framework/img/workshop/laptop-icon2.png) Work Session: MaKey MaKey (30 min - 1 hour)
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Introduction
+
+      ##Kick-Off Script
+
+      Welcome to our Girls Learning Code workshop: Gamemaking with Scratch & MaKey MaKey! We’re so glad that you could be here today and hope you’re ready to learn lots of new things.
+
+      How many of you have been to one of our workshops or camps before?
+      (If you get some hands up, ask a few of them what workshops they attended)
+
+      We started running our first programs for kids with Girls Learning Code workshops and camps back in 2012, and then since we had so many people asking if boys could come too we started Kids Learning Code a year later in 2013. Since then, we’ve expanded to over 30 cities across Canada and have taught over 19,000 kids how to code!
+
+      Before we get started with our workshop, there are a few things we need to go over:
+
+      * <strong>Washrooms:</strong> Can everyone please point in the direction of the washrooms? (clarify where they are located) If you need to go to the washroom, please bring a buddy with you.
+      * <strong>Water:</strong> If you brought a water bottle with you, you’re welcome to keep it on your desk, but make sure to keep the lid closed when you’re not using it. If you don’t have a water bottle, one of our mentors can help grab a glass from the kitchen later on (but please keep glasses away from laptops).
+      * <strong>Break/snacks:</strong> We’ll have a 10 minute break when you can eat any snacks you brought with you or just stretch your legs. If you have a (peanut free) snack, please eat it out front and clean up any crumbs or wrappers when you’re done.
+
+      ##Intro Slides
+
+      <table style="font-size:2rem;">
+        <tr>
+          <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Slide</strong></td>
+          <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Notes</strong></td>
+        </tr>
+        <tr>
+          <td><img src="framework/img/workshop/slides/3.jpg" alt="slide"></td>
+          <td> Now I want to introduce you all to some important people: our mentors!
+          <br>
+          <i>Have mentors join you at front of class and get them to say their name and favourite website/game</i>
+          <br><br>
+          The mentors will be here to help you if you have any problems, so don’t be afraid to ask them questions if you get stuck, or if you just want to show them your awesome projects! </td>
+        </tr>
+        <tr>
+          <td><img src="framework/img/workshop/slides/5.jpg" alt="slide"></td>
+          <td> <em>After selecting the activity, insert the activity title in this slide.</em></td>
+        </tr>
+        <tr>
+          <td><img src="framework/img/workshop/slides/6.jpg" alt="slide"></td>
+          <td>
+            <ol>
+                <li><strong>Ask for help</strong>: If you’re stuck or having trouble with something, work with the person beside you, or put up your hand to ask the facilitator or one of our mentors for help
+                <li><strong>Be present</strong>: We really want you to learn a lot in this workshop, so make sure to pay attention and follow along with the activities
+                <li><strong>Try your best</strong>: Even the best coders have trouble sometimes, so we don’t expect you to do everything perfectly the first time, but make sure you’re trying your best. Don’t be afraid to try things out and make mistakes!</td>
+              </ol>
+        </tr>
+        <tr>
+          <td><img src="framework/img/workshop/slides/7.jpg" alt="slide"></td>
+          <td><em>Take 2-3 responses</em></td>
+        </tr>
+        <tr>
+          <td><img src="framework/img/workshop/slides/8.jpg" alt="slide"></td>
+          <td><em>Great time for Do the Robot unplugged activity</em></td>
+        </tr>
+        <tr>
+          <td><img src="framework/img/workshop/slides/9.jpg" alt="slide"></td>
+          <td> We have two parts to our project today:
+            <br><br>First we’re going to create a game in Scratch
+            <br>Q: Who has heard of or used Scratch before?
+          </td>
+        </tr>
+        <tr>
+          <td><img src="framework/img/workshop/slides/10.jpg" alt="slide"></td>
+          <td> Then, we are going to invent controllers, which we’ll then use to play our games!</td>
+        </tr>
+        <tr>
+          <td><img src="framework/img/workshop/slides/11.jpg" alt="slide"></td>
+          <td><em>Open the example project to give an idea of what they will create.</em></td>
+        </tr>
+        <tr>
+          <td><img src="framework/img/workshop/slides/12.jpg" alt="slide"></td>
+          <td><em>Take 2-3 responses</em>
+            <br><br> Q: What does a game developer do?
+            <br><br>Q: What are all of the things we need to think of when creating a game?</td>
+        </tr>
+        <tr>
+          <td><img src="framework/img/workshop/slides/13.jpg" alt="slide"></td>
+          <td>Q: What does ‘simulated’ mean?
+            <br>A: Something created by a computer, not real but is designed to look/feel real</td>
+        </tr><tr>
+          <td><img src="framework/img/workshop/slides/14.jpg" alt="slide"></td>
+          <td> Today we are creating PVP (player versus player) games so you can compete against each other.
+            <br>You will decide the rules and goals of your game.</td>
+        </tr><tr>
+          <td><img src="framework/img/workshop/slides/15.jpg" alt="slide"></td>
+          <td> Q: Who has played Rock Paper Scissors before? Great! Then you’re all experts!
+            <br>Q: Who are the players?
+            <br>Q: What is the goal?
+            <br>Q: What are the rules?</td>
+        </tr><tr>
+          <td><img src="framework/img/workshop/slides/16.jpg" alt="slide"></td>
+          <td> Think to yourself, what are 3 things that your favourite game has or that you look for in a game?
+            <br>Pair with an elbow partner (or 2). Listen to what their ideas and share your own.
+            <br>Share with the entire group. <em>Ask one rep from each group to share 3 things that they discussed</em></td>
+        </tr><tr>
+          <td><img src="framework/img/workshop/slides/17.jpg" alt="slide"></td>
+          <td>Let’s get started! But first, let’s take a look at the tool that we’ll be using.</td>
+        </tr><tr>
+          <td><img src="framework/img/workshop/slides/18.jpg" alt="slide"></td>
+          <td> Scratch is a tool for coding games and animations. It looks sort of like a puzzle, with drag-and-drop pieces.</td>
+        </tr>
+      </table>
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Code-Along
+
+      * Open up Scratch, and click on “create” (top, left corner).
+      * Point out the main elements: Stage, Sprites, and Scripts. Demonstrate how to drag and connect blocks.
+      * Give learners a few minutes to click on blocks and explore.
+      * Go through 2-4 challenges with the group, where learners are tasked with trying to make something happen in Scratch. For example, “Try to make Scratch the cat move” or “Try to make Scratch the cat say something when the space key is pressed” (See <a href="http://bit.ly/scratch-challenge-solutions-doc">Code-Along Challenges</a> for more examples and solutions)
+      * After 5 minutes on a challenge, have a volunteer come to the front and show how they solved the challenge. Point out that there are many different ways to approach these challenges, and multiple solutions. Ask if anyone solved it in a different way.
+      * If time, ask learners to think of challenges for the group.
+      * This is a great time to address common bugs and questions that arise, e.g. how to delete a sprite, what to do when a sprite has walked off of the screen, etc.
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Work Session: Scratch
+
+      * Choose 1-2 activities from the <a href="https://docs.google.com/spreadsheets/d/13vVx3XwkvJuRs2ca2GVvLuixVlIkXkzbRYdzA14aOi8/edit?usp=sharing">activity list</a> (Gamemaking tab). Suggested activity for 6-9 year olds: Escape Game. Suggested activities for 9-13 year olds: Launcher Game and Platform Game.
+      * Show learners where to find the <strong>starter project</strong> in the Scratch class.
+      * Follow the <strong>solution sheet</strong> as you lead the group in creating a working foundation, stopping right before the “Add-On” portion.
+      * Give time for learners to remix the project on their own. It might be helpful to brainstorm remix ideas for inspiration (refer to “Add-On” ideas).
+      * Make sure everyone clicks on "SHARE" when they are finished (top, right corner)
+      * Have learners add their projects to the studio (Go to "My Class" > Select studio > Add Projects).
+      * Leave time at the end for learners to test their games and share their projects with each other. If short on time: Have a Gallery Walk, where learners open the project on their screens, tuck in their chairs, and walk around to see each other's work.
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Intro to Circuits
+
+      <table style="font-size:2rem;">
+        <tr>
+          <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Slide</strong></td>
+          <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Notes</strong></td>
+        </tr>
+        <tr>
+          <td><img src="framework/img/workshop/slides/20.jpg" alt="slide"></td>
+          <td>Q: Who has heard of or used MaKey MaKey before? </td>
+        </tr>
+        <tr>
+          <td><img src="framework/img/workshop/slides/21.jpg" alt="slide"></td>
+          <td> <em>Watch video.</em></td>
+        </tr>
+        <tr>
+          <td><img src="framework/img/workshop/slides/22.jpg" alt="slide"></td>
+          <td>Q: Any guesses?</tr>
+        <tr>
+          <td><img src="framework/img/workshop/slides/23.jpg" alt="slide"></td>
+          <td>A circuit is like a road that cars (electricity) travel on. If there is a break in the road, the cars can’t get to where they need to be.</td>
+        </tr>
+        <tr>
+          <td><img src="framework/img/workshop/slides/24.jpg" alt="slide"></td>
+          <td>Q: Has anyone ever wondered what happens when you turn on a light switch?
+            <br><br>When we flip a switch, we are closing (or completing) a circuit, so that electricity can flow through (and reach the light bulb!)</td>
+        </tr>
+        <tr>
+          <td><img src="framework/img/workshop/slides/25.jpg" alt="slide"></td>
+          <td>Q: What conductor is used to direct electricity to a light bulb?
+            <br><br>Electricity travels inside cables with metal wires, like copper or aluminum.</td>
+        </tr>
+        <tr>
+          <td><img src="framework/img/workshop/slides/26.jpg" alt="slide"></td>
+          <td>Electricity also travels through other objects, like water (which is why we don’t go swimming in an electrical storm!)</td>
+        </tr>
+        <tr>
+          <td><img src="framework/img/workshop/slides/27.jpg" alt="slide"></td>
+          <td>We’re going to conduct an experiment!
+            <br><em>Watch this video ahead of time: http://bit.ly/makey-human-circuit </em>
+            <br><ol>
+              <li>Have everyone stand up and make a circle around the room</li>
+              <li>Open up Flappy Bird (on Scratch)</li>
+              <li>Plug MaKey MaKey into your laptop </li>
+              <li>Hook one alligator clip to ‘earth’, then have someone hold the metal part on the other end of the clip</li>
+              <li>Attach the 2nd clip to ‘space’ on the board and give the other end to the next person in the circle</li>
+              <li>Instruct everyone to hold hands, except for the two hands holding the clips</li>
+              <li>Start the game and have the two holding clips to high-five to control the game</li>
+              <li>Make sure everyone is holding hands, not sleeves. Try having one person let go and see what happens.</li>
+              <li>Try having one person with a clip touch the other person’s nose, tap their forehead, etc. and see what happens</li></td>
+        </tr>
+        <tr>
+          <td><img src="framework/img/workshop/slides/28.jpg" alt="slide"></td>
+          <td><em>Have everyone sit back down</em>
+            <br><br>Q: Why don’t we get electrocuted when we touch a cable, like our laptop chargers?
+            <br>A: We use insulators to control where an electric current travels (and to keep us safe!)</td>
+        </tr>
+        <tr>
+          <td><img src="framework/img/workshop/slides/29.jpg" alt="slide"></td>
+          <td></td>
+        </tr><tr>
+          <td><img src="framework/img/workshop/slides/30.jpg" alt="slide"></td>
+          <td>Show learners how to set up MaKey MaKey by recording yourself setting it up on your webcam.
+            <br><br>Leave this slide up for reference as they set up their own. </td>
+        </tr>
+      </table>
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Work Session: MaKey MaKey
+
+      * Using your webcam, demonstrate how to set up MaKey MaKey
+      * Hand out a MaKey MaKey kit to each pair, as well as a basket with conductive items to explore
+      * Display slide #30 (Set It Up) at the front as learners get started
+      * Give learners 30 min to test out different conductive materials as their game controllers
+      * Once everyone has had a chance to test out their own games, rotate pairs clockwise around the room, so that they can test out other games
+      * Give 2-3 minutes at each game, then signal for pairs to rotate again
+      * Give everyone 5 minutes to clean up their MaKey MaKey kits and materials before wrapping up the workshop
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Unplugged Activity (Optional)
+
+      If you notice that the group is needing a break, give them 10 minutes to use the washroom, get some water, or grab a snack from their bags. Another option is to run an unplugged activity midway through the workshop to get them out of their seats and moving around. Unplugged activities usually take around 10 minutes to run. Choose an unplugged activity from the <a href="https://docs.google.com/document/d/1tUTiHl7scs8RHdLLvdmZTFtD9EuAyZhetTLFgvar5CQ/edit?usp=sharing">activity list</a>. Suggested activity: Do The Robot.
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Closing Script
+
+      Who can tell me something new they learned today? (<strong>*Refer to slide 33 for examples</strong>. If you don’t get any hands up, you can either ask a specific kid that was definitely engaged during the workshop, or review a couple of the key lessons in the workshop)
+
+      You all did an amazing job and we’re really impressed with how great your projects turned out.
+
+      If you want to learn more about coding, design, and technology, go onto our site girlslearningcode.com to check out all of our upcoming workshops and join our mailing list. (Announce next workshop and give short description).
+
+      Before we go, let’s give our mentors a big hand!
+
+      Thanks and we hope to see you all in another workshop soon!
+    </script>
+  </section>
+
+  </main><!-- cls main section -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Uncomment the plugins you need -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Grabs all the .snippet elements
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>

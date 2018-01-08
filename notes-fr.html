@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Girls Learning Code</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- S'occupe des préfixes CSS 3 -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- Ouvre tous les liens dans une nouvelle fenêtre -->
+  <base target="_blank">
+</head>
+
+<!-- Barre de progression / temps : définissez la durée de la présentation en minutes à l'aide de « data-duration ». -->
+<body class="en" data-duration="360">
+
+
+  <main>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        ##Guide pour les formateurs
+
+        ##Girls Learning Code : Conception de Jeux avec Scratch et Makey Makey
+        <br>
+
+        #INDEX
+        ###<a href="#slide2" target="_self">Utilisation de Scratch</a>
+        ###<a href="#slide3" target="_self">Utilisation de MaKey MaKey</a>
+        ###<a href="#slide4" target="_self">Ordre du jour</a>
+        ###<a href="#slide5" target="_self">Introduction</a>
+        ###<a href="#slide6" target="_self">Programmation en groupe</a>
+        ###<a href="#slide7" target="_self">Séance de programmation : Scratch</a>
+        ###<a href="#slide8" target="_self">Introduction aux circuits</a>
+        ###<a href="#slide9" target="_self">Séance de programmation : MaKey MaKey</a>
+        ###<a href="#slide10" target="_self">Activité hors ligne (facultatif)</a>
+        ###<a href="#slide11" target="_self">Fermeture</a>
+
+        <br>
+        #Utilisation de Scratch
+
+        Scratch est un outil fantastique pour enseigner les concepts de la programmation et concevoir des jeux numériques créatifs. Si vous ne connaissez pas ce programme, bonne nouvelle : il y a des tonnes de ressources gratuites en ligne pour apprendre à l’utiliser.  En voici quelques-unes que nous aimons:
+
+        * <a href="https://scratch.mit.edu/educators/#resources">Ressources pour les éducateurs</a> (sélectionnez l’option « français » en bas de la page et consultez le guide <a href="https://cdn.scratch.mit.edu/scratchr2/static/__0c1805349a6fe15c01c668d3f8acd971__/pdfs/help/Getting-Started-Guide-Scratch2.pdf">Pour bien démarrer</a>)
+        * <a href="https://www.cs-first.com/training/introduction-computer-science-and-scratch">Notions et exercices</a> Google CS First (en anglais)
+        * <a href="http://teacherslearningcode.com/assets/TLC-gettingstartedguide.pdf">Guide</a> Teachers Learning Code  (en anglais)
+        * <a href="http://scratched.gse.harvard.edu/resources/scratch-teacher-accounts">Guide pour les comptes pour enseignant</a> Scratch ED: Using the Scratch (en anglais)
+
+        <br>
+        # Utilisation de MaKey MaKey
+
+        MaKey MaKey est un circuit imprimé utilisant le courant électrique pour faire fonctionner des objets comme s’ils étaient des touches d’un clavier. Le circuit imprimé se branche à l’ordinateur à l’aide d’un câble USB et aux objets qui serviront de touches à l’aide de pinces crocodile.
+
+        L’ensemble MaKey MaKey peut transformer tous les objets conducteurs, comme une banane ou de la pâte à modeler, en touche de clavier comme les flèches et l'espace. Pour plus d’informations, regardez cette vidéo ou visitez le site Web de MaKey MaKey (en anglais).
+
+        <br>
+        #Matériel :
+        * Assez d'ensembles <a href="http://shop.ladieslearningcode.com/products/makey-makey?variant=12400440452">MaKey MaKey</a> pour chaque groupe de deux.
+        * Matériaux conducteurs. Par exemple : fruits, pâte à modeler, feuilles d'aluminium, ustensiles, bonbons, papier et crayons
+
+        <br>
+        ##Ordre du jour
+
+        ![intro icon](framework/img/workshop/intro-icon2.png) Introduction (15 min)
+
+        ![code icon](framework/img/workshop/code-icon2.png) Programmation en groupe (30 min)
+
+        ![laptop icon](framework/img/workshop/laptop-icon2.png) Séance de programmation : Scratch (30 min - 1 heure)
+
+        ![intro icon](framework/img/workshop/intro-icon2.png) Introduction aux circuits (15 min)
+
+        ![laptop icon](framework/img/workshop/laptop-icon2.png) Séance de programmation : MaKey MaKey (30 min - 1 heure)
+
+
+        <br>
+        #Introduction
+
+        ##Script d'ouverture
+
+        Bienvenue aux filles à l’atelier Initiation à la Conception de Jeux: Programmer avec Scratch de Girls Learning Code! Nous sommes contents que vous puissiez être là aujourd’hui et nous espérons que vous êtes prêts à apprendre une tonne de nouvelles choses.
+
+
+        Qui a déjà assisté à l’un de nos ateliers ou à l’un de nos camps? (Si certains ont levé la main, demandez-leur à quelles activités ils ont participé.)
+
+
+        Girls Learning Code a organisé ses premiers ateliers et camps pour les enfants en 2012. Ensuite, beaucoup de gens nous ont demandé si les garçons pouvaient participer aux activités. C’est pourquoi nous avons démarré Kids Learning Code un an plus tard, en 2013. Depuis, nous organisons des activités dans plus de 30 villes partout au Canada. Nous avons enseigné la programmation à plus de 19 000 enfants!
+
+
+        Avant de commencer l’atelier, nous avons quelques informations à vous partager.
+
+        * La salle de bain se trouve au bout du corridor (selon le local où vous vous trouvez, pointez vers la salle de bain)
+        * Il y a de l’eau dans la cafétéria si vous avez soif. Si vous avez apporté une bouteille d’eau, vous pouvez la laisser sur votre bureau, mais gardez le bouchon bien fermé. Si vous n’avez pas de bouteille d’eau, il y a des verres dans la cafétéria, mais ne les emmenez pas dans la classe parce que nous ne voulons pas de dégâts sur les ordinateurs.
+        * Nous prendrons une pause de 10 minutes à 14 h 30. Vous pourrez manger votre collation ou vous dégourdir les jambes. Si vous avez une collation, mangez-la à l’avant de la classe, essuyez les miettes et jetez l’emballage quand vous aurez terminé.
+
+
+        ##Diapositives de l’introduction
+
+        <table style="font-size:2rem;">
+          <tr>
+            <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Diapositives</strong></td>
+            <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Notes</strong></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/3.jpg" alt="slide"></td>
+            <td> J'aimerais vous présenter des gens très importants pour nous : les mentors!
+            <br>
+
+            <i>Demandez aux mentors de vous rejoindre à l'avant de la classe, de dire leur nom et de nommer l'un de leurs sites ou jeux préférés.</i>
+            <br><br>
+            Les mentors seront là pour vous aider si vous avez des problèmes. N'hésitez pas à leur poser des questions en cas de pépin, ou à leur montrer vos super projets! </td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/5.jpg" alt="slide"></td>
+            <td><em>Après avoir choisi l'activité, ajoutez le titre dans cette diapositive.</em></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/6.jpg" alt="slide"></td>
+            <td>
+              <ol>
+                  <li><strong>Demandez de l'aide</strong> : Si vous êtes coincées ou avez des problèmes, travaillez avec votre voisine ou levez la main pour poser des questions à la formatrice ou à un mentor.
+                  <li><strong>Soyez présentes</strong>: Nous souhaitons vraiment que vous appreniez beaucoup pendant l'atelier. Assurez-vous de prêter attention au cours et de suivre pendant les activités.
+                  <li><strong>Faites de votre mieux</strong>: Même les meilleurs programmeurs ont parfois de la difficulté. Nous ne nous attendons pas à ce tout soit parfait la première fois, mais nous voulons que vous fassiez de votre mieux. N'ayez pas peur d'essayer de nouvelles choses et de vous tromper!</td>
+                </ol>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/7.jpg" alt="slide"></td>
+            <td> <em>Écouter 2 ou 3 réponses</em></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/8.jpg" alt="slide"></td>
+            <td> <em>Le temps idéal pour l'activité hors ligne « Le robot »</em></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/9.jpg" alt="slide"></td>
+            <td> Notre projet est divisé en deux parties :
+              <br><br>Premièrement, nous allons créer un jeu avec Scratch.
+              <br>Q : Qui a déjà entendu parler de Scratch ou l'a déjà utilisé?
+            </td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/10.jpg" alt="slide"></td>
+            <td> Deuxièmement, nous allons créer des manettes dont nous nous servirons pour jouer à nos jeux!</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/11.jpg" alt="slide"></td>
+            <td><em>Titre de l’activité</em></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/12.jpg" alt="slide"></td>
+            <td><em>Écouter 2 ou 3 réponses</em>
+              <br><br>Q: Que fait un concepteur de jeux?
+              <br><br>Q: Quels sont les éléments auxquels penser au moment de créer un jeu?</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/13.jpg" alt="slide"></td>
+            <td>Q: Que veut dire « simulation »?
+              <br><br>Quelque chose de faux qui a été conçu par un ordinateur avec un effet et une apparence réalistes</td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides-fr/14.jpg" alt="slide"></td>
+            <td>Le joueur contre un autre joueur, alias « PVP » (player versus player)
+              <br>Exemples: Clash of Clans, Clash Royale, Street Fighter, Minecraft (en jouant sur un serveur)</td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides-fr/15.jpg" alt="slide"></td>
+            <td>Q: Qui a déjà joué à roche-papier-ciseaux? Parfait, vous êtes donc tous des experts!
+              <br>Q: Qui sont les joueurs?
+              <br>Q: Quel est l’objectif?
+              <br>Q: Quelles sont les règles?</td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides-fr/16.jpg" alt="slide"></td>
+            <td>Pensez dans votre tête : Quelles sont les trois choses que votre jeu préféré a et que vous aimez dans un jeu?
+              <br>Discutez avec un partenaire (ou deux). Écoutez leurs idées et partagez les vôtres.
+              <br>Partagez avec tout le groupe. <em>Demandez à un porte-parole de chaque groupe de partager trois idées dont ils ont discuté</em></td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides-fr/17.jpg" alt="slide"></td>
+            <td>Commençons à programmer! Voyons avant le programme que nous utiliserons. </td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides-fr/18.jpg" alt="slide"></td>
+            <td>Scratch est un outil pour programmer des jeux et des animations. Il ressemble à un casse-tête avec des pièces que l’on déplace et emboîte.</td>
+          </tr>
+        </table>
+
+        <br>
+        #Programmation en groupe
+
+        * Ouvrez Scratch et cliquez sur « Créer » (en haut à gauche).
+        * Montrez aux apprenants les éléments principaux : la scène, les lutins et les scripts. Enseignez-leur comment déplacer et emboîter des blocs.
+        * Donnez aux apprenants quelques minutes pour cliquer sur des blocs et explorer Scratch.
+        * Avec le groupe, faites 2 à 4 défis qui pousseront les apprenants à réaliser une action dans Scratch. Par exemple : « Faites bouger Scratch le chat » ou « Essayez de faire dire quelque chose à Scratch le chat en appuyant sur une touche ». (Voir le document <a href="https://docs.google.com/document/d/1it1IadRawE_HuXgnE6WIA9DOSBzorHjS6H3yVdqQMGI/edit?usp=sharing">Défis de programmation en groupe</a> pour plus d'exemples de défis)
+        * Après avoir passé 5 minutes sur un défi, demandez à un volontaire de venir à l'avant et de montrer sa solution aux autres. Rappelez aux apprenants qu'il y a plusieurs façons de relever les défis et qu'il y a donc de nombreuses solutions. Demandez-leur s'ils ont une autre solution.
+        * Si vous avez du temps, demandez aux apprenants de penser à des défis supplémentaires pour le groupe.
+        * C'est le moment idéal de répondre aux questions et de résoudre des problèmes (p. ex. : comment effacer un lutin ou que faire quand son lutin disparait de l'écran.)
+
+
+        <br>
+        #Séance de programmation : Scratch
+
+        * Choisissez <strong>une ou deux</strong> activités parmi la <a href="http://bit.ly/liste-d-activités-scratch">liste d’activités</a> (onglet Conception de jeux). Suggestion d’activité pour 6 à 9 ans : « Escape Game ». Suggestions d’activités pour 9 à 13 ans : « Launcher Game » et « Platform Game ».
+        * Montrez aux apprenants où trouver le <strong>projet initial</strong> dans le studio de la classe Scratch pour l'activité « Complétez l'histoire: La fille qui détestait les livres ».
+        * Suivez le <strong>corrigé</strong> en orientant le groupe pendant la construction d'un projet fonctionnel. Arrêtez juste avant la section « Bonus ».
+        * Donnez le temps aux apprenants de remixer le projet eux-mêmes. Pour ce faire, il est conseillé de faire un remue-méninges pour trouver de l'inspiration (allez dans la section « Bonus »).
+        * Assurez-vous que tout le monde clique sur « PARTAGER » quand ils ont fini leur projet (en haut à droite).
+        * Accordez du temps aux apprenants pour essayer et partager leurs projets entre eux à la fin de l'atelier. Suggestion : Faites un « vernissage ». Les apprenants laisseront leurs projets ouverts sur leur écran, rangeront leur chaise et marcheront autour de la classe pour voir les projets de tout le monde.
+
+
+        <br>
+        #Introduction aux Circuits
+
+        <table style="font-size:2rem;">
+          <tr>
+            <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Slide</strong></td>
+            <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Notes</strong></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/20.jpg" alt="slide"></td>
+            <td>Q : Qui a déjà entendu parler de MaKey MaKey ou l'a déjà utilisé?</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/21.jpg" alt="slide"></td>
+            <td> <em>Regardez la vidéo.)</em></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/22.jpg" alt="slide"></td>
+            <td>Q : Avez-vous une idée?</tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/23.jpg" alt="slide"></td>
+            <td>Un circuit est une route sur laquelle les voitures (le courant électrique) roulent. S’il y a un trou dans la route, les voitures ne peuvent pas se rendre à destination.</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/24.jpg" alt="slide"></td>
+            <td>Q : Qui s'est déjà demandé ce qui se passe quand nous appuyons sur l'interrupteur d'une lampe?
+              <br><br>Quand nous appuyons sur l’interrupteur, nous fermons (complétons) le circuit afin que le courant électrique puisse circuler et atteindre l’ampoule!</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/25.jpg" alt="slide"></td>
+            <td>Q : Quel conducteur sert à orienter le courant électrique vers l’ampoule?
+              <br><br>Le courant électrique se déplace à l’intérieur des câbles, qui contiennent des fils fabriqués avec des métaux comme le cuivre ou l’aluminium.</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/26.jpg" alt="slide"></td>
+            <td>De plus, le courant électrique se déplace à travers d'autres matières, comme l’eau. (Voilà pourquoi nous n’allons pas nager quand il y a un orage!)</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/27.jpg" alt="slide"></td>
+            <td>Faisons une petite expérience!
+              <br>Visionnez cette vidéo avant l'activité : http://bit.ly/makey-human-circuit (en anglais)</em>
+
+              <br><ol>
+                <li>Demandez à tout le monde de se lever et de se mettre en cercle autour du local.</li>
+                <li>Ouvrez Flappy Bird dans Scratch.</li>
+                <li>Branchez l'ensemble MaKey MaKey à votre ordinateur. </li>
+                <li>Prenez une pince crocodile et mettez-la sur la « terre » du circuit imprimé. Puis, demandez à quelqu’un de tenir la partie en métal qui se trouve à l'autre bout de la pince.</li>
+                <li>Prenez la deuxième pince et mettez-la sur une « touche » du circuit imprimé. Demandez à la prochaine personne dans le cercle de tenir l'autre bout en métal de la pince.</li>
+                <li>Ensuite, demandez à tout le monde de se tenir la main (excluant les mains tenant les pinces).</li>
+                <li>Commencez le jeu et demandez aux gens dont les mains tiennent les pinces de se faire un « tape là-dedans » pour commander le jeu.</li>
+                <li>Assurez-vous que tout le monde se tient la main (pas la manche). Montrez aux apprenants ce qui se passe quand quelqu’un retire sa main de la chaîne.</li>
+                <li>Demandez à une personne ayant une pince de toucher le nez ou le front de quelqu’un d'autre et voyez ce qui se passe.</li></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/28.jpg" alt="slide"></td>
+            <td><em>Demandez à tout le monde de se rasseoir.</em>
+              <br><br>Q : Pourquoi ne sommes-nous pas électrocutés en touchant à un câble, par exemple, au cordon de chargement d'un ordinateur?
+              <br>Nous utilisons les isolants pour orienter le courant électrique (et le garder loin de nous, pour notre sécurité!).</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides-fr/29.jpg" alt="slide"></td>
+            <td></td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides-fr/30.jpg" alt="slide"></td>
+            <td>Montrez aux apprenants comment installer l’ensemble MaKey MaKey et enregistrez-vous en train de l’installer avec votre webcam.
+              <br><br>Laissez cette diapositive à l’écran afin que les apprenants puissent la consulter pendant l’installation. </td>
+          </tr>
+        </table>
+
+        <br>
+        ##Séance de programmation :  MaKey MaKey
+
+        * À l'aide de votre webcam, montrez aux apprenants comment installer l'ensemble MaKey MaKey.
+        * Distribuez un ensemble MaKey MaKey à tous les groupes de deux ainsi qu'un panier avec des objets conducteurs.
+        * Affichez la diapositive n°30 (Installation) à l'avant du local afin que les apprenants puissent commencer l'installation.
+        * Accordez 30 minutes aux apprenants afin qu'ils puissent essayer les matériaux conducteurs qui serviront de manette pour leur jeu.
+        * Quand tous les groupes de deux ont essayé leur propre jeu, demandez-leur de tourner en sens horaire autour du local pour essayer les jeux des autres.
+        * Laissez-les essayer les jeux pendant 2 ou 3 minutes (par jeu), puis demandez aux équipes de tourner de nouveau.
+        * Accordez 5 minutes au groupe afin qu’ils puissent ranger les ensembles MaKey MaKey et les matériaux avant de conclure l'atelier.
+
+        <br>
+        #Activité hors ligne (facultative)
+
+        Si vous remarquez que le groupe a besoin d’une pause, donnez-lui cinq minutes pour aller à la salle de bains, boire de l’eau ou manger une collation. Vous avez aussi le choix d’organiser une activité « pause d’ordi » au milieu de l’atelier pour faire bouger le groupe et le forcer à se lever. Les activités « pause d’ordi » durent environ dix minutes. Choisissez-en une parmi la <a href="http://bit.ly/activités-hors-ligne-doc">liste d’activités</a>. Suggestion d’activité : Do The Robot.
+
+        <br>
+        #Script de fermeture
+
+        Qui peut me nommer une chose qu'il a apprise aujourd'hui? (<strong>*Consultez la diapositive n°33 pour avoir des exemples</strong>). Si personne ne lève la main, vous pouvez demander à un apprenant qui était particulièrement engagé pendant l'atelier de dire un mot ou vous pouvez repasser certaines notions clés de l'atelier.)
+
+        Tout le monde a fait un excellent travail aujourd'hui. Nous sommes très impressionnés par vos projets!
+
+        Si vous souhaitez en savoir plus à propos de la programmation, de la conception et de la technologie, visitez notre site girlslearningcode.com pour savoir quand se dérouleront nos prochains ateliers et vous abonner à notre liste d'envoi. (Nommez le prochain atelier et faites-en une petite description.)
+
+        Avant de partir, applaudissons chaleureusement nos mentors!
+
+        Merci beaucoup! Nous espérons vous voir dans un nouvel atelier très bientôt!
+
+       </script>
+    </section>
+
+<!--Additional slides to link from index-->
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Utilisation de Scratch
+
+      Scratch est un outil fantastique pour enseigner les concepts de la programmation et concevoir des jeux numériques créatifs. Si vous ne connaissez pas ce programme, bonne nouvelle : il y a des tonnes de ressources gratuites en ligne pour apprendre à l’utiliser.  En voici quelques-unes que nous aimons:
+
+      * <a href="https://scratch.mit.edu/educators/#resources">Ressources pour les éducateurs</a> (sélectionnez l’option « français » en bas de la page et consultez le guide <a href="https://cdn.scratch.mit.edu/scratchr2/static/__0c1805349a6fe15c01c668d3f8acd971__/pdfs/help/Getting-Started-Guide-Scratch2.pdf">Pour bien démarrer</a>)
+      * <a href="https://www.cs-first.com/training/introduction-computer-science-and-scratch">Notions et exercices</a> Google CS First (en anglais)
+      * <a href="http://teacherslearningcode.com/assets/TLC-gettingstartedguide.pdf">Guide</a> Teachers Learning Code  (en anglais)
+      * <a href="http://scratched.gse.harvard.edu/resources/scratch-teacher-accounts">Guide pour les comptes pour enseignant</a> Scratch ED: Using the Scratch (en anglais)
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      # Utilisation de MaKey MaKey
+
+      MaKey MaKey est un circuit imprimé utilisant le courant électrique pour faire fonctionner des objets comme s’ils étaient des touches d’un clavier. Le circuit imprimé se branche à l’ordinateur à l’aide d’un câble USB et aux objets qui serviront de touches à l’aide de pinces crocodile.
+
+      L’ensemble MaKey MaKey peut transformer tous les objets conducteurs, comme une banane ou de la pâte à modeler, en touche de clavier comme les flèches et l'espace. Pour plus d’informations, regardez cette vidéo ou visitez le site Web de MaKey MaKey (en anglais).
+
+      <br>
+      #Matériel :
+      * Assez d'ensembles <a href="http://shop.ladieslearningcode.com/products/makey-makey?variant=12400440452">MaKey MaKey</a> pour chaque groupe de deux.
+      * Matériaux conducteurs. Par exemple : fruits, pâte à modeler, feuilles d'aluminium, ustensiles, bonbons, papier et crayons
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+    ##Ordre du jour
+
+    ![intro icon](framework/img/workshop/intro-icon2.png) Introduction (15 min)
+
+    ![code icon](framework/img/workshop/code-icon2.png) Programmation en groupe (30 min)
+
+    ![laptop icon](framework/img/workshop/laptop-icon2.png) Séance de programmation : Scratch (30 min - 1 heure)
+
+    ![intro icon](framework/img/workshop/intro-icon2.png) Introduction aux circuits (15 min)
+
+    ![laptop icon](framework/img/workshop/laptop-icon2.png) Séance de programmation : MaKey MaKey (30 min - 1 heure)
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+    #Introduction
+
+    ##Script d'ouverture
+
+    Bienvenue aux filles à l’atelier Initiation à la Conception de Jeux: Programmer avec Scratch de Girls Learning Code! Nous sommes contents que vous puissiez être là aujourd’hui et nous espérons que vous êtes prêts à apprendre une tonne de nouvelles choses.
+
+
+    Qui a déjà assisté à l’un de nos ateliers ou à l’un de nos camps? (Si certains ont levé la main, demandez-leur à quelles activités ils ont participé.)
+
+
+    Girls Learning Code a organisé ses premiers ateliers et camps pour les enfants en 2012. Ensuite, beaucoup de gens nous ont demandé si les garçons pouvaient participer aux activités. C’est pourquoi nous avons démarré Kids Learning Code un an plus tard, en 2013. Depuis, nous organisons des activités dans plus de 30 villes partout au Canada. Nous avons enseigné la programmation à plus de 19 000 enfants!
+
+
+    Avant de commencer l’atelier, nous avons quelques informations à vous partager.
+
+    * La salle de bain se trouve au bout du corridor (selon le local où vous vous trouvez, pointez vers la salle de bain)
+    * Il y a de l’eau dans la cafétéria si vous avez soif. Si vous avez apporté une bouteille d’eau, vous pouvez la laisser sur votre bureau, mais gardez le bouchon bien fermé. Si vous n’avez pas de bouteille d’eau, il y a des verres dans la cafétéria, mais ne les emmenez pas dans la classe parce que nous ne voulons pas de dégâts sur les ordinateurs.
+    * Nous prendrons une pause de 10 minutes à 14 h 30. Vous pourrez manger votre collation ou vous dégourdir les jambes. Si vous avez une collation, mangez-la à l’avant de la classe, essuyez les miettes et jetez l’emballage quand vous aurez terminé.
+
+
+    ##Diapositives de l’introduction
+
+    <table style="font-size:2rem;">
+      <tr>
+        <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Diapositives</strong></td>
+        <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Notes</strong></td>
+      </tr>
+      <tr>
+        <td><img src="framework/img/workshop/slides-fr/3.jpg" alt="slide"></td>
+        <td> J'aimerais vous présenter des gens très importants pour nous : les mentors!
+        <br>
+
+        <i>Demandez aux mentors de vous rejoindre à l'avant de la classe, de dire leur nom et de nommer l'un de leurs sites ou jeux préférés.</i>
+        <br><br>
+        Les mentors seront là pour vous aider si vous avez des problèmes. N'hésitez pas à leur poser des questions en cas de pépin, ou à leur montrer vos super projets! </td>
+      </tr>
+      <tr>
+        <td><img src="framework/img/workshop/slides-fr/5.jpg" alt="slide"></td>
+        <td><em>Après avoir choisi l'activité, ajoutez le titre dans cette diapositive.</em></td>
+      </tr>
+      <tr>
+        <td><img src="framework/img/workshop/slides-fr/6.jpg" alt="slide"></td>
+        <td>
+          <ol>
+              <li><strong>Demandez de l'aide</strong> : Si vous êtes coincées ou avez des problèmes, travaillez avec votre voisine ou levez la main pour poser des questions à la formatrice ou à un mentor.
+              <li><strong>Soyez présentes</strong>: Nous souhaitons vraiment que vous appreniez beaucoup pendant l'atelier. Assurez-vous de prêter attention au cours et de suivre pendant les activités.
+              <li><strong>Faites de votre mieux</strong>: Même les meilleurs programmeurs ont parfois de la difficulté. Nous ne nous attendons pas à ce tout soit parfait la première fois, mais nous voulons que vous fassiez de votre mieux. N'ayez pas peur d'essayer de nouvelles choses et de vous tromper!</td>
+            </ol>
+      </tr>
+      <tr>
+        <td><img src="framework/img/workshop/slides-fr/7.jpg" alt="slide"></td>
+        <td> <em>Écouter 2 ou 3 réponses</em></td>
+      </tr>
+      <tr>
+        <td><img src="framework/img/workshop/slides-fr/8.jpg" alt="slide"></td>
+        <td> <em>Le temps idéal pour l'activité hors ligne « Le robot »</em></td>
+      </tr>
+      <tr>
+        <td><img src="framework/img/workshop/slides-fr/9.jpg" alt="slide"></td>
+        <td> Notre projet est divisé en deux parties :
+          <br><br>Premièrement, nous allons créer un jeu avec Scratch.
+          <br>Q : Qui a déjà entendu parler de Scratch ou l'a déjà utilisé?
+        </td>
+      </tr>
+      <tr>
+        <td><img src="framework/img/workshop/slides-fr/10.jpg" alt="slide"></td>
+        <td> Deuxièmement, nous allons créer des manettes dont nous nous servirons pour jouer à nos jeux!</td>
+      </tr>
+      <tr>
+        <td><img src="framework/img/workshop/slides-fr/11.jpg" alt="slide"></td>
+        <td><em>Titre de l’activité</em></td>
+      </tr>
+      <tr>
+        <td><img src="framework/img/workshop/slides-fr/12.jpg" alt="slide"></td>
+        <td><em>Écouter 2 ou 3 réponses</em>
+          <br><br>Q: Que fait un concepteur de jeux?
+          <br><br>Q: Quels sont les éléments auxquels penser au moment de créer un jeu?</td>
+      </tr>
+      <tr>
+        <td><img src="framework/img/workshop/slides-fr/13.jpg" alt="slide"></td>
+        <td>Q: Que veut dire « simulation »?
+          <br><br>Quelque chose de faux qui a été conçu par un ordinateur avec un effet et une apparence réalistes</td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides-fr/14.jpg" alt="slide"></td>
+        <td>Le joueur contre un autre joueur, alias « PVP » (player versus player)
+          <br>Exemples: Clash of Clans, Clash Royale, Street Fighter, Minecraft (en jouant sur un serveur)</td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides-fr/15.jpg" alt="slide"></td>
+        <td>Q: Qui a déjà joué à roche-papier-ciseaux? Parfait, vous êtes donc tous des experts!
+          <br>Q: Qui sont les joueurs?
+          <br>Q: Quel est l’objectif?
+          <br>Q: Quelles sont les règles?</td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides-fr/16.jpg" alt="slide"></td>
+        <td>Pensez dans votre tête : Quelles sont les trois choses que votre jeu préféré a et que vous aimez dans un jeu?
+          <br>Discutez avec un partenaire (ou deux). Écoutez leurs idées et partagez les vôtres.
+          <br>Partagez avec tout le groupe. <em>Demandez à un porte-parole de chaque groupe de partager trois idées dont ils ont discuté</em></td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides-fr/17.jpg" alt="slide"></td>
+        <td>Commençons à programmer! Voyons avant le programme que nous utiliserons. </td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides-fr/18.jpg" alt="slide"></td>
+        <td>Scratch est un outil pour programmer des jeux et des animations. Il ressemble à un casse-tête avec des pièces que l’on déplace et emboîte.</td>
+      </tr>
+    </table>
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Programmation en groupe
+
+      * Ouvrez Scratch et cliquez sur « Créer » (en haut à gauche).
+      * Montrez aux apprenants les éléments principaux : la scène, les lutins et les scripts. Enseignez-leur comment déplacer et emboîter des blocs.
+      * Donnez aux apprenants quelques minutes pour cliquer sur des blocs et explorer Scratch.
+      * Avec le groupe, faites 2 à 4 défis qui pousseront les apprenants à réaliser une action dans Scratch. Par exemple : « Faites bouger Scratch le chat » ou « Essayez de faire dire quelque chose à Scratch le chat en appuyant sur une touche ». (Voir le document <a href="https://docs.google.com/document/d/1it1IadRawE_HuXgnE6WIA9DOSBzorHjS6H3yVdqQMGI/edit?usp=sharing">Défis de programmation en groupe</a> pour plus d'exemples de défis)
+      * Après avoir passé 5 minutes sur un défi, demandez à un volontaire de venir à l'avant et de montrer sa solution aux autres. Rappelez aux apprenants qu'il y a plusieurs façons de relever les défis et qu'il y a donc de nombreuses solutions. Demandez-leur s'ils ont une autre solution.
+      * Si vous avez du temps, demandez aux apprenants de penser à des défis supplémentaires pour le groupe.
+      * C'est le moment idéal de répondre aux questions et de résoudre des problèmes (p. ex. : comment effacer un lutin ou que faire quand son lutin disparait de l'écran.)
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Séance de programmation : Scratch
+
+      * Choisissez <strong>une ou deux</strong> activités parmi la <a href="http://bit.ly/liste-d-activités-scratch">liste d’activités</a> (onglet Conception de jeux). Suggestion d’activité pour 6 à 9 ans : « Escape Game ». Suggestions d’activités pour 9 à 13 ans : « Launcher Game » et « Platform Game ».
+      * Montrez aux apprenants où trouver le <strong>projet initial</strong> dans le studio de la classe Scratch pour l'activité « Complétez l'histoire: La fille qui détestait les livres ».
+      * Suivez le <strong>corrigé</strong> en orientant le groupe pendant la construction d'un projet fonctionnel. Arrêtez juste avant la section « Bonus ».
+      * Donnez le temps aux apprenants de remixer le projet eux-mêmes. Pour ce faire, il est conseillé de faire un remue-méninges pour trouver de l'inspiration (allez dans la section « Bonus »).
+      * Assurez-vous que tout le monde clique sur « PARTAGER » quand ils ont fini leur projet (en haut à droite).
+      * Accordez du temps aux apprenants pour essayer et partager leurs projets entre eux à la fin de l'atelier. Suggestion : Faites un « vernissage ». Les apprenants laisseront leurs projets ouverts sur leur écran, rangeront leur chaise et marcheront autour de la classe pour voir les projets de tout le monde.
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+    #Introduction aux Circuits
+
+    <table style="font-size:2rem;">
+      <tr>
+        <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Slide</strong></td>
+        <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Notes</strong></td>
+      </tr>
+      <tr>
+        <td><img src="framework/img/workshop/slides-fr/20.jpg" alt="slide"></td>
+        <td>Q : Qui a déjà entendu parler de MaKey MaKey ou l'a déjà utilisé?</td>
+      </tr>
+      <tr>
+        <td><img src="framework/img/workshop/slides-fr/21.jpg" alt="slide"></td>
+        <td> <em>Regardez la vidéo.)</em></td>
+      </tr>
+      <tr>
+        <td><img src="framework/img/workshop/slides-fr/22.jpg" alt="slide"></td>
+        <td>Q : Avez-vous une idée?</tr>
+      <tr>
+        <td><img src="framework/img/workshop/slides-fr/23.jpg" alt="slide"></td>
+        <td>Un circuit est une route sur laquelle les voitures (le courant électrique) roulent. S’il y a un trou dans la route, les voitures ne peuvent pas se rendre à destination.</td>
+      </tr>
+      <tr>
+        <td><img src="framework/img/workshop/slides-fr/24.jpg" alt="slide"></td>
+        <td>Q : Qui s'est déjà demandé ce qui se passe quand nous appuyons sur l'interrupteur d'une lampe?
+          <br><br>Quand nous appuyons sur l’interrupteur, nous fermons (complétons) le circuit afin que le courant électrique puisse circuler et atteindre l’ampoule!</td>
+      </tr>
+      <tr>
+        <td><img src="framework/img/workshop/slides-fr/25.jpg" alt="slide"></td>
+        <td>Q : Quel conducteur sert à orienter le courant électrique vers l’ampoule?
+          <br><br>Le courant électrique se déplace à l’intérieur des câbles, qui contiennent des fils fabriqués avec des métaux comme le cuivre ou l’aluminium.</td>
+      </tr>
+      <tr>
+        <td><img src="framework/img/workshop/slides-fr/26.jpg" alt="slide"></td>
+        <td>De plus, le courant électrique se déplace à travers d'autres matières, comme l’eau. (Voilà pourquoi nous n’allons pas nager quand il y a un orage!)</td>
+      </tr>
+      <tr>
+        <td><img src="framework/img/workshop/slides-fr/27.jpg" alt="slide"></td>
+        <td>Faisons une petite expérience!
+          <br>Visionnez cette vidéo avant l'activité : http://bit.ly/makey-human-circuit (en anglais)</em>
+
+          <br><ol>
+            <li>Demandez à tout le monde de se lever et de se mettre en cercle autour du local.</li>
+            <li>Ouvrez Flappy Bird dans Scratch.</li>
+            <li>Branchez l'ensemble MaKey MaKey à votre ordinateur. </li>
+            <li>Prenez une pince crocodile et mettez-la sur la « terre » du circuit imprimé. Puis, demandez à quelqu’un de tenir la partie en métal qui se trouve à l'autre bout de la pince.</li>
+            <li>Prenez la deuxième pince et mettez-la sur une « touche » du circuit imprimé. Demandez à la prochaine personne dans le cercle de tenir l'autre bout en métal de la pince.</li>
+            <li>Ensuite, demandez à tout le monde de se tenir la main (excluant les mains tenant les pinces).</li>
+            <li>Commencez le jeu et demandez aux gens dont les mains tiennent les pinces de se faire un « tape là-dedans » pour commander le jeu.</li>
+            <li>Assurez-vous que tout le monde se tient la main (pas la manche). Montrez aux apprenants ce qui se passe quand quelqu’un retire sa main de la chaîne.</li>
+            <li>Demandez à une personne ayant une pince de toucher le nez ou le front de quelqu’un d'autre et voyez ce qui se passe.</li></td>
+      </tr>
+      <tr>
+        <td><img src="framework/img/workshop/slides-fr/28.jpg" alt="slide"></td>
+        <td><em>Demandez à tout le monde de se rasseoir.</em>
+          <br><br>Q : Pourquoi ne sommes-nous pas électrocutés en touchant à un câble, par exemple, au cordon de chargement d'un ordinateur?
+          <br>Nous utilisons les isolants pour orienter le courant électrique (et le garder loin de nous, pour notre sécurité!).</td>
+      </tr>
+      <tr>
+        <td><img src="framework/img/workshop/slides-fr/29.jpg" alt="slide"></td>
+        <td></td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides-fr/30.jpg" alt="slide"></td>
+        <td>Montrez aux apprenants comment installer l’ensemble MaKey MaKey et enregistrez-vous en train de l’installer avec votre webcam.
+          <br><br>Laissez cette diapositive à l’écran afin que les apprenants puissent la consulter pendant l’installation. </td>
+      </tr>
+    </table>
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      ##Séance de programmation :  MaKey MaKey
+
+      * À l'aide de votre webcam, montrez aux apprenants comment installer l'ensemble MaKey MaKey.
+      * Distribuez un ensemble MaKey MaKey à tous les groupes de deux ainsi qu'un panier avec des objets conducteurs.
+      * Affichez la diapositive n°30 (Installation) à l'avant du local afin que les apprenants puissent commencer l'installation.
+      * Accordez 30 minutes aux apprenants afin qu'ils puissent essayer les matériaux conducteurs qui serviront de manette pour leur jeu.
+      * Quand tous les groupes de deux ont essayé leur propre jeu, demandez-leur de tourner en sens horaire autour du local pour essayer les jeux des autres.
+      * Laissez-les essayer les jeux pendant 2 ou 3 minutes (par jeu), puis demandez aux équipes de tourner de nouveau.
+      * Accordez 5 minutes au groupe afin qu’ils puissent ranger les ensembles MaKey MaKey et les matériaux avant de conclure l'atelier.
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Activité hors ligne (facultative)
+
+      Si vous remarquez que le groupe a besoin d’une pause, donnez-lui cinq minutes pour aller à la salle de bains, boire de l’eau ou manger une collation. Vous avez aussi le choix d’organiser une activité « pause d’ordi » au milieu de l’atelier pour faire bouger le groupe et le forcer à se lever. Les activités « pause d’ordi » durent environ dix minutes. Choisissez-en une parmi la <a href="http://bit.ly/activités-hors-ligne-doc">liste d’activités</a>. Suggestion d’activité : Do The Robot.
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Script de fermeture
+
+      Qui peut me nommer une chose qu'il a apprise aujourd'hui? (<strong>*Consultez la diapositive n°33 pour avoir des exemples</strong>). Si personne ne lève la main, vous pouvez demander à un apprenant qui était particulièrement engagé pendant l'atelier de dire un mot ou vous pouvez repasser certaines notions clés de l'atelier.)
+
+      Tout le monde a fait un excellent travail aujourd'hui. Nous sommes très impressionnés par vos projets!
+
+      Si vous souhaitez en savoir plus à propos de la programmation, de la conception et de la technologie, visitez notre site girlslearningcode.com pour savoir quand se dérouleront nos prochains ateliers et vous abonner à notre liste d'envoi. (Nommez le prochain atelier et faites-en une petite description.)
+
+      Avant de partir, applaudissons chaleureusement nos mentors!
+
+      Merci beaucoup! Nous espérons vous voir dans un nouvel atelier très bientôt!
+    </script>
+  </section>
+
+  </main><!-- cls main section -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Uncomment the plugins you need -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Grabs all the .snippet elements
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>
