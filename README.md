@@ -1,4 +1,11 @@
 ## English: (Scroll down for French)
+## This content is featured in a monthly theme!
+
+In 2019, we want to challenge Canadians to pause and think, learn about, share, and work towards solving issues that affect us all on a global scale – while leveraging the power of technology!  More information on monthly themes [here](https://www.canadalearningcode.ca/monthly-themes/)
+
+*September's theme is EQUITY*
+
+See slide 9 for suggestions on how learners can incorporate this month’s theme into their projects.
 
 # Kids Learning Code: Gamemaking and Circuitry with Scratch &amp; MaKey MaKey
 
@@ -61,20 +68,27 @@ Content created by Kat Barrett, Kassandra Lenters, & Eden Beronio for [Canada Le
 
 Email questions & comments to [content@canadalearningcode.ca](mailto:content@canadalearningcode.ca).
 
-This content was created with the advisory of and in collaboration with educators, industry representatives and technologists. These individuals have helped us to ensure that lesson content represents the technology landscape and educator needs, with learners in mind. If you'd like to contribute to future lesson content development, let us know [here](https://docs.google.com/forms/d/e/1FAIpQLSfJ8NSMKVAmzpdn3EAymxCbDDz3XZPxyDdmtQ87GECuvXzzDQ/viewform). 
+This content was created with the advisory of and in collaboration with educators, industry representatives and technologists. These individuals have helped us to ensure that lesson content represents the technology landscape and educator needs, with learners in mind. If you'd like to contribute to future lesson content development, let us know [here](https://docs.google.com/forms/d/e/1FAIpQLSfJ8NSMKVAmzpdn3EAymxCbDDz3XZPxyDdmtQ87GECuvXzzDQ/viewform).
 
-We're really happy to see others leverage our content in their community - we’ve developed it to be used by others with attribution through a [Creative Commons (CC BY-NC 4.0) license](https://creativecommons.org/licenses/by-nc/4.0/). 
+We're really happy to see others leverage our content in their community - we’ve developed it to be used by others with attribution through a [Creative Commons (CC BY-NC 4.0) license](https://creativecommons.org/licenses/by-nc/4.0/).
 
-Here’s an easy way to attribute content back to us - please include it wherever you use or make reference to our content. 
+Here’s an easy way to attribute content back to us - please include it wherever you use or make reference to our content.
 
 “Please note that this is not a [Canada Learning Code](http://canadalearningcode.ca/) affiliated event, but we want to acknowledge the organization for the creation of the content [INSERT LINK TO GITHUB LINK] being delivered under Creative Commons license"
 
 # Contributing
 
-Our general Rule of Thumb is that it's okay to add examples if you feel it could provide more context for your community. However, we ask that instructors do not remove anything, as the content is designed with intention, whether that be meeting specific learning objectives, or maintaining our organization’s culture through the design.  Any suggestions for revisions or updates can be submitted in Github via issues and pull requests. If submitting an issue, please include the slide number(s) in the title. 
+Our general Rule of Thumb is that it's okay to add examples if you feel it could provide more context for your community. However, we ask that instructors do not remove anything, as the content is designed with intention, whether that be meeting specific learning objectives, or maintaining our organization’s culture through the design.  Any suggestions for revisions or updates can be submitted in Github via issues and pull requests. If submitting an issue, please include the slide number(s) in the title.
 
 
 ## Version française
+# Ce contenu fait partie d'une thématique mensuelle!
+
+En 2019, nous encourageons la population du Canada à réfléchir, à apprendre, à partager et à collaborer pour résoudre des problèmes qui affectent toute la planète à l'aide de la technologie! Vous trouverez plus d'informations sur les thématiques mensuelles en consultant notre [site](https://www.canadalearningcode.ca/monthly-themes/).
+
+*Le thème du mois de septembre est : L'ÉQUITÉ*
+
+Consultez la diapositive n° 9 pour donner à votre groupe des idées pour intégrer le thème à leur projet. Les apprenantes ont le choix d'intégrer le thème à leur projet ou non.
 
 # Kids Learning Code : Conception de Jeux avec Scratch et Makey Makey
 
@@ -151,7 +165,7 @@ de l'utiliser au sein de leur communauté. C'est pourquoi nous l'avons conçu sp
 
 Nous vous invitons à ajouter le passage suivant à l'endroit où vous utilisez ou
 mentionnez notre contenu afin de l'attribuer à notre organisme en toute
-Simplicité. 
+Simplicité.
 
 « Bien que cet événement ne soit pas associé à [Canada en programmation](http://canadalearningcode.ca/fr), nous reconnaissons que l'organisme a créé le contenu [LIEN VERS GITHUB] que nous utilisons dans ce cours sous la licence Creative Commons. »
 
